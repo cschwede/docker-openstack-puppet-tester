@@ -14,3 +14,4 @@ bundle install --path /tmp/vendor
 bundle exec rake lint
 bundle exec rake syntax
 bundle exec rake spec
+bundle exec rake acceptance
