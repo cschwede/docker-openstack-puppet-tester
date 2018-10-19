@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+set -x -e
 
 if [ -e /tmp/vendor ]; then
   sudo chown -R tester:tester /tmp/vendor
