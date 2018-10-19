@@ -1,6 +1,6 @@
 FROM fedora:latest
 
-RUN yum install -y sudo rubygem-bundler ruby-devel make gcc redhat-rpm-config zlib-devel patch gcc-c++ git ; yum clean all
+RUN yum install -y sudo rubygem-bundler rubygem-rake ruby-devel make gcc redhat-rpm-config zlib-devel patch gcc-c++ git ; yum clean all
 
 RUN mkdir /tmp/testdir
 
